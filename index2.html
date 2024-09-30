@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGINA 2</title>
+    <style>
+        body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    
+    .header {
+        background-image: url('fondo.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        color: white;
+        padding-top: 60px;
+        font-size: 40px;
+    }
+    
+    .content {
+        background: linear-gradient(to bottom, #45a9ec 0%, #69baf3 50%, #baddf7 100%);
+        padding: 40px 0;
+        margin-top: 0px;
+    }
+    
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px; 
+        justify-content: center; 
+        align-items: center; 
+        max-width: 640px; 
+        margin: 0 auto; 
+    }
+    
+    .gallery img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 20px; 
+    }
+    
+    .footer {
+        background-color: #2c3e50;
+        color: white;
+        padding: 10px 0;
+    }
+    
+    .link {
+        text-decoration: none;
+        color: white;
+        padding: 10px 0;
+        display: inline-block;
+        font-size: 45px;
+    }
+    
+    h2 {
+        text-align: center;
+        margin-top: -9px;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Landing Page de Deportes</h1>
+        <p>¡Encuentra todo lo que necesita para mantenerte activo!</p>
+    </div>
+
+    <div class="content">
+        <h2>Galería de fotos</h2>
+        <div class="gallery">
+            <img src="1-img.jpg" alt="Estadio 1">
+            <img src="2-img.jpg" alt="Estadio 2">
+            <img src="3-img.jpg" alt="Estadio 3">
+            <img src="4-img.jpg" alt="Estadio 4">
+        </div>
+        <br>
+        <a href="index.html" class="link">Regresar</a>
+    </div>
+
+    <div class="footer">
+        <p>© 2023 Landing Page Deportes</p>
+    </div>
+</body>
+</html>
